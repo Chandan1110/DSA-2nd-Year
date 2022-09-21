@@ -1,0 +1,19 @@
+#include <cmath>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+   int a,b,c;
+   int s;
+   scanf("%d %d %d",&a,&b,&c);
+   if(a&&b&&c<=1000){
+   s=a+b+c;
+   printf("%d",s);
+   }
+   else {
+       printf("error");
+   }
+return 0;
+}
